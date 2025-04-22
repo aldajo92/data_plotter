@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
 
-package_name = 'velocity_plotter'
+package_name = 'data_plotter'
 
 setup(
     name=package_name,
@@ -20,7 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'data_plotter = velocity_plotter.data_plotter:main',
+            'velocity_plotter = data_plotter.velocity_plotter:main',
+            'angle_plotter = data_plotter.angle_plotter:main',
         ],
     },
 )
