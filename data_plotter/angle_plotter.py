@@ -11,7 +11,6 @@ class ImuPolarPlotter(Node):
 
         # Subscribe to IMU
         self.imu_sub = self.create_subscription(Imu, '/imu/data', self.imu_callback, 10)
-
         self.latest_yaw = 0.0  # Radians
 
         # Plot setup

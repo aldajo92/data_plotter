@@ -21,8 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'velocity_plotter = data_plotter.velocity_plotter:main',
-            'angle_plotter = data_plotter.angle_plotter:main',
-            'combined_plotter = data_plotter.combined_plotter:main',
+            'angle_plotter = data_plotter.angle_plotter:main'
         ],
     },
 )
